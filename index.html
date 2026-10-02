@@ -1,1367 +1,1340 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta
         name="description"
-        content="CodeNova - Jirul SK Developer Portfolio"
+        content="CodeNova - JIRUL SK Portfolio | IT Undergraduate and Web Developer"
     >
 
-    <meta
-        name="author"
-        content="Jirul SK"
+    <title>CodeNova | JIRUL SK</title>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
     >
 
-    <title>CodeNova | Jirul SK</title>
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
 
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-
 </head>
-
 
 <body>
 
+<!-- =====================================================
+     HEADER
+===================================================== -->
 
-    <!-- =========================================
-         NAVBAR
-    ========================================== -->
+<header class="header">
 
-    <header class="header">
+    <div class="container nav-container">
 
-        <nav class="navbar">
+        <a href="#home" class="logo">
+            &lt;CodeNova/&gt;
+        </a>
 
-            <a href="#home" class="logo">
-                CodeNova
-            </a>
+        <nav class="nav-links" id="navLinks">
 
-
-            <button
-                class="menu-button"
-                type="button"
-                aria-label="Open navigation menu"
-            >
-                ☰
-            </button>
-
-
-            <ul class="nav-links">
-
-                <li>
-                    <a href="#home">Home</a>
-                </li>
-
-                <li>
-                    <a href="#about">About</a>
-                </li>
-
-                <li>
-                    <a href="#skills">Skills</a>
-                </li>
-
-                <li>
-                    <a href="#education">Education</a>
-                </li>
-
-                <li>
-                    <a href="#training">Training</a>
-                </li>
-
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-
-                <li>
-                    <a href="#competencies">Competencies</a>
-                </li>
-
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-
-            </ul>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#training">Training</a>
+            <a href="#projects">Projects</a>
+            <a href="#competencies">Competencies</a>
+            <a href="#contact">Contact</a>
 
         </nav>
 
-    </header>
+        <div class="nav-actions">
+
+            <button
+                class="theme-btn"
+                id="themeBtn"
+                aria-label="Toggle dark mode"
+            >
+                <i class="fas fa-moon"></i>
+            </button>
+
+            <button
+                class="menu-btn"
+                id="menuBtn"
+                aria-label="Open menu"
+            >
+                <i class="fas fa-bars"></i>
+            </button>
+
+        </div>
+
+    </div>
+
+</header>
 
 
+<!-- =====================================================
+     HOME
+===================================================== -->
 
-    <!-- =========================================
-         MAIN
-    ========================================== -->
+<section class="hero" id="home">
 
-    <main>
+    <div class="container hero-container">
+
+        <div class="hero-content">
+
+            <p class="hero-small">
+                Hello, I'm
+            </p>
+
+            <h1>
+                JIRUL <span>SK</span>
+            </h1>
+
+            <h2>
+                IT Undergraduate & Web Developer
+            </h2>
+
+            <p class="hero-description">
+                I build modern, responsive and user-focused web
+                applications using modern web technologies.
+            </p>
 
 
-        <!-- =====================================
-             HOME
-        ====================================== -->
+            <!-- HERO BUTTONS -->
 
-        <section id="home" class="hero">
+            <div class="hero-buttons">
 
-            <div class="hero-content">
+                <a
+                    href="#projects"
+                    class="btn primary-btn"
+                >
+                    <i class="fas fa-code"></i>
+                    View Projects
+                </a>
 
 
-                <div class="hero-image">
+                <a
+                    href="#contact"
+                    class="btn secondary-btn"
+                >
+                    <i class="fas fa-envelope"></i>
+                    Contact Me
+                </a>
 
-                    <img
-                        src="profile.jpg"
-                        alt="Jirul SK"
-                    >
+
+                <a
+                    href="resume.pdf"
+                    class="btn secondary-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fas fa-file-pdf"></i>
+                    View Resume
+                </a>
+
+
+                <a
+                    href="resume.pdf"
+                    class="btn primary-btn"
+                    download="JIRUL_SK_Resume.pdf"
+                >
+                    <i class="fas fa-download"></i>
+                    Download Resume
+                </a>
+
+            </div>
+
+
+            <!-- SOCIAL LINKS -->
+
+            <div class="social-links">
+
+                <a
+                    href="https://github.com/jirulsk2003"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="GitHub"
+                >
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a
+                    href="https://www.linkedin.com/in/jirul-sk-07a40b27b/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn"
+                >
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a
+                    href="https://www.instagram.com/s.jirul.07/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Instagram"
+                >
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- PROFILE IMAGE -->
+
+        <div class="hero-image-area">
+
+            <div class="profile-image-wrapper">
+
+                <div class="profile-glow"></div>
+
+                <img
+                    src="profile.jpg"
+                    alt="JIRUL SK"
+                    class="profile-image"
+                >
+
+            </div>
+
+
+            <div class="image-badge">
+
+                <i class="fas fa-code"></i>
+
+                Web Developer
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     ABOUT
+===================================================== -->
+
+<section class="section" id="about">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>01</span>
+
+            <h2>About Me</h2>
+
+            <p>
+                Get to know me
+            </p>
+
+        </div>
+
+
+        <div class="about-grid">
+
+            <div class="about-content">
+
+                <h3>
+                    Building technology with purpose.
+                </h3>
+
+                <p>
+                    I am an Information Technology undergraduate
+                    at Narula Institute of Technology, Kolkata,
+                    graduating in 2027.
+                </p>
+
+                <p>
+                    I have hands-on experience in web development,
+                    software products, databases, REST APIs and
+                    cloud technologies.
+                </p>
+
+                <p>
+                    I enjoy understanding technical requirements,
+                    developing useful products and communicating
+                    technical concepts clearly.
+                </p>
+
+            </div>
+
+
+            <div class="about-cards">
+
+                <div class="info-card">
+
+                    <i class="fas fa-graduation-cap"></i>
+
+                    <h4>Education</h4>
+
+                    <p>
+                        B.Tech in Information Technology
+                    </p>
 
                 </div>
 
 
-                <p class="hero-welcome">
-                    👋 Welcome to my portfolio
-                </p>
+                <div class="info-card">
+
+                    <i class="fas fa-laptop-code"></i>
+
+                    <h4>Focus</h4>
+
+                    <p>
+                        Web Development & Software
+                    </p>
+
+                </div>
 
 
-                <h1>
+                <div class="info-card">
 
-                    Hello, I'm
+                    <i class="fas fa-cloud"></i>
 
-                    <span>
-                        Jirul SK
+                    <h4>Cloud</h4>
+
+                    <p>
+                        Google Cloud Fundamentals
+                    </p>
+
+                </div>
+
+
+                <div class="info-card">
+
+                    <i class="fas fa-users"></i>
+
+                    <h4>Collaboration</h4>
+
+                    <p>
+                        Cross-functional Teamwork
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     SKILLS
+===================================================== -->
+
+<section class="section section-alt" id="skills">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>02</span>
+
+            <h2>Skills</h2>
+
+            <p>
+                Technologies I work with
+            </p>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+            <div class="skill-category">
+
+                <div class="skill-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+
+                <h3>Programming</h3>
+
+                <div class="skill-list">
+
+                    <span>Java</span>
+                    <span>JavaScript ES6+</span>
+                    <span>SQL</span>
+                    <span>OOP</span>
+                    <span>DSA</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="skill-category">
+
+                <div class="skill-icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+
+                <h3>Web Development</h3>
+
+                <div class="skill-list">
+
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>React.js</span>
+                    <span>Angular</span>
+                    <span>Vite</span>
+                    <span>Tailwind CSS</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="skill-category">
+
+                <div class="skill-icon">
+                    <i class="fas fa-server"></i>
+                </div>
+
+                <h3>Backend</h3>
+
+                <div class="skill-list">
+
+                    <span>Node.js</span>
+                    <span>Express.js</span>
+                    <span>REST APIs</span>
+                    <span>MongoDB</span>
+                    <span>SQL</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="skill-category">
+
+                <div class="skill-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+
+                <h3>Tools & Cloud</h3>
+
+                <div class="skill-list">
+
+                    <span>Git</span>
+                    <span>GitHub</span>
+                    <span>VS Code</span>
+                    <span>Postman</span>
+                    <span>GCP</span>
+                    <span>Chart.js</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     EDUCATION
+===================================================== -->
+
+<section class="section" id="education">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>03</span>
+
+            <h2>Education</h2>
+
+            <p>
+                Academic background
+            </p>
+
+        </div>
+
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-card">
+
+                    <span class="timeline-date">
+                        Expected 2027
                     </span>
 
-                </h1>
+                    <h3>
+                        B.Tech in Information Technology
+                    </h3>
+
+                    <h4>
+                        Narula Institute of Technology
+                    </h4>
+
+                    <p>
+                        Kolkata, West Bengal
+                    </p>
 
 
-                <h2>
-                    IT Undergraduate | Web Developer
-                </h2>
+                    <div class="course-tags">
+
+                        <span>DBMS</span>
+                        <span>Web Technologies</span>
+                        <span>Java</span>
+                        <span>Computer Networks</span>
+                        <span>Operating Systems</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 
 
-                <p class="hero-description">
+<!-- =====================================================
+     TRAINING
+===================================================== -->
 
-                    Information Technology undergraduate graduating
-                    in 2027 with hands-on experience in web development,
-                    software products, databases, cloud platforms,
-                    REST APIs and database-driven applications.
+<section class="section section-alt" id="training">
 
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>04</span>
+
+            <h2>Training</h2>
+
+            <p>
+                Practical learning experience
+            </p>
+
+        </div>
+
+
+        <div class="training-grid">
+
+
+            <div class="training-card">
+
+                <div class="training-icon">
+                    <i class="fab fa-java"></i>
+                </div>
+
+                <h3>
+                    Java Full Stack Development
+                </h3>
+
+                <h4>
+                    EduSkills Foundation
+                </h4>
+
+                <ul>
+
+                    <li>
+                        Practical Java application development
+                    </li>
+
+                    <li>
+                        Backend logic and SQL
+                    </li>
+
+                    <li>
+                        Database-driven software systems
+                    </li>
+
+                    <li>
+                        Enterprise software workflows
+                    </li>
+
+                    <li>
+                        Full-stack development concepts
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div class="training-card">
+
+                <div class="training-icon">
+                    <i class="fab fa-angular"></i>
+                </div>
+
+                <h3>
+                    MEAN Full Stack Development
+                </h3>
+
+                <h4>
+                    Ardent Computech Pvt. Ltd.
+                </h4>
+
+                <ul>
+
+                    <li>
+                        MongoDB, Express.js, Angular and Node.js
+                    </li>
+
+                    <li>
+                        Client-server communication
+                    </li>
+
+                    <li>
+                        REST API data exchange
+                    </li>
+
+                    <li>
+                        Frontend-backend integration
+                    </li>
+
+                    <li>
+                        Database-driven workflows
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div class="training-card">
+
+                <div class="training-icon">
+                    <i class="fab fa-google"></i>
+                </div>
+
+                <h3>
+                    Google Cloud Arcade
+                </h3>
+
+                <h4>
+                    Participant
+                </h4>
+
+                <ul>
+
+                    <li>
+                        Virtual machine deployment
+                    </li>
+
+                    <li>
+                        IAM configuration
+                    </li>
+
+                    <li>
+                        Cloud storage
+                    </li>
+
+                    <li>
+                        Access management
+                    </li>
+
+                    <li>
+                        Cloud deployment concepts
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     PROJECTS
+===================================================== -->
+
+<section class="section" id="projects">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>05</span>
+
+            <h2>Projects</h2>
+
+            <p>
+                Selected development projects
+            </p>
+
+        </div>
+
+
+        <div class="projects-grid">
+
+
+            <!-- PROJECT 1 -->
+
+            <article class="project-card">
+
+                <div class="project-number">
+                    01
+                </div>
+
+                <div class="project-icon">
+                    <i class="fas fa-heart-pulse"></i>
+                </div>
+
+                <span class="project-type">
+                    Web Development Project
+                </span>
+
+                <h3>
+                    FamPlus
+                </h3>
+
+                <h4>
+                    Family Health Tracker
+                </h4>
+
+                <p>
+                    A web-based family health tracking platform
+                    designed to organize health information and
+                    monitor vital parameters.
                 </p>
 
+                <ul>
 
-                <div class="hero-buttons">
+                    <li>
+                        Built responsive interfaces using React.js,
+                        Vite and Tailwind CSS.
+                    </li>
 
+                    <li>
+                        Implemented user authentication and family
+                        dashboard workflows.
+                    </li>
 
-                    <a
-                        href="#projects"
-                        class="btn"
-                    >
-                        🚀 View Projects
-                    </a>
+                    <li>
+                        Added symptom checker and health-vitals
+                        data entry workflows.
+                    </li>
 
+                    <li>
+                        Integrated Chart.js for health data
+                        visualization.
+                    </li>
 
-                    <a
-                        href="resume.pdf"
-                        class="btn"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        👁️ View Resume
-                    </a>
+                    <li>
+                        Connected frontend workflows with REST APIs.
+                    </li>
 
-
-                    <a
-                        href="resume.pdf"
-                        class="btn"
-                        download
-                    >
-                        📄 Download Resume
-                    </a>
+                </ul>
 
 
-                    <a
-                        href="#contact"
-                        class="btn"
-                    >
-                        📩 Contact Me
-                    </a>
+                <div class="tech-tags">
 
+                    <span>React.js</span>
+                    <span>Vite</span>
+                    <span>Tailwind CSS</span>
+                    <span>Chart.js</span>
+                    <span>REST API</span>
 
                 </div>
 
-            </div>
 
-        </section>
+                <a
+                    href="https://fam-plus.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                >
+                    <i class="fas fa-external-link-alt"></i>
+                    Live Website
+                </a>
 
-
-
-        <!-- =====================================
-             ABOUT
-        ====================================== -->
-
-        <section
-            id="about"
-            class="section"
-        >
-
-            <div class="container">
+            </article>
 
 
-                <h2 class="section-title">
-                    About Me
-                </h2>
+            <!-- PROJECT 2 -->
+
+            <article class="project-card">
+
+                <div class="project-number">
+                    02
+                </div>
+
+                <div class="project-icon">
+                    <i class="fas fa-newspaper"></i>
+                </div>
+
+                <span class="project-type">
+                    Web Development Project
+                </span>
+
+                <h3>
+                    NewsPulse
+                </h3>
+
+                <h4>
+                    Modern News Website
+                </h4>
+
+                <p>
+                    A modern responsive news platform with
+                    category-based news browsing and API
+                    integration.
+                </p>
+
+                <ul>
+
+                    <li>
+                        Integrated GNews API for news data.
+                    </li>
+
+                    <li>
+                        Added India, World, Sports, Technology,
+                        Business, Science and Entertainment.
+                    </li>
+
+                    <li>
+                        Created responsive article cards and
+                        category navigation.
+                    </li>
+
+                    <li>
+                        Implemented loading states and API
+                        error handling.
+                    </li>
+
+                    <li>
+                        Deployed the project using Vercel.
+                    </li>
+
+                </ul>
 
 
-                <div class="about-card">
+                <div class="tech-tags">
 
-
-                    <p>
-
-                        I am an Information Technology undergraduate
-                        at Narula Institute of Technology, Kolkata,
-                        with expected graduation in 2027.
-
-                    </p>
-
-
-                    <p>
-
-                        I have hands-on experience in web development,
-                        software products, databases, cloud platforms,
-                        REST APIs and database-driven applications.
-
-                    </p>
-
-
-                    <p>
-
-                        I am interested in understanding technical
-                        requirements, researching products and
-                        technologies, analyzing business needs and
-                        communicating technical concepts to both
-                        technical and non-technical audiences.
-
-                    </p>
-
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>GNews API</span>
+                    <span>Vercel</span>
 
                 </div>
 
-            </div>
 
-        </section>
+                <a
+                    href="https://newspulse-beryl.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                >
+                    <i class="fas fa-external-link-alt"></i>
+                    Live Website
+                </a>
 
+            </article>
 
 
-        <!-- =====================================
-             TECHNICAL SKILLS
-        ====================================== -->
+            <!-- PROJECT 3 -->
 
-        <section
-            id="skills"
-            class="section section-light"
-        >
+            <article class="project-card">
 
-            <div class="container">
-
-
-                <h2 class="section-title">
-                    Technical Skills
-                </h2>
-
-
-                <div class="professional-skills">
-
-
-                    <!-- PROGRAMMING -->
-
-                    <div class="skill-category">
-
-                        <div class="skill-category-header">
-
-                            <h3>
-                                💻 Programming
-                            </h3>
-
-                            <span>
-                                Core
-                            </span>
-
-                        </div>
-
-
-                        <div class="skill-tags">
-
-                            <span>Java</span>
-
-                            <span>JavaScript ES6+</span>
-
-                            <span>SQL</span>
-
-                        </div>
-
-                    </div>
-
-
-
-                    <!-- FRONTEND -->
-
-                    <div class="skill-category">
-
-                        <div class="skill-category-header">
-
-                            <h3>
-                                🎨 Frontend
-                            </h3>
-
-                            <span>
-                                Web
-                            </span>
-
-                        </div>
-
-
-                        <div class="skill-tags">
-
-                            <span>HTML5</span>
-
-                            <span>CSS3</span>
-
-                            <span>React.js</span>
-
-                            <span>Angular</span>
-
-                            <span>Vite</span>
-
-                            <span>Tailwind CSS</span>
-
-                            <span>Chart.js</span>
-
-                        </div>
-
-                    </div>
-
-
-
-                    <!-- BACKEND -->
-
-                    <div class="skill-category">
-
-                        <div class="skill-category-header">
-
-                            <h3>
-                                ⚙️ Backend
-                            </h3>
-
-                            <span>
-                                Server
-                            </span>
-
-                        </div>
-
-
-                        <div class="skill-tags">
-
-                            <span>Node.js</span>
-
-                            <span>Express.js</span>
-
-                            <span>REST APIs</span>
-
-                        </div>
-
-                    </div>
-
-
-
-                    <!-- DATABASE -->
-
-                    <div class="skill-category">
-
-                        <div class="skill-category-header">
-
-                            <h3>
-                                🗄️ Database
-                            </h3>
-
-                            <span>
-                                Data
-                            </span>
-
-                        </div>
-
-
-                        <div class="skill-tags">
-
-                            <span>MongoDB</span>
-
-                            <span>SQL</span>
-
-                            <span>DBMS</span>
-
-                        </div>
-
-                    </div>
-
-
-
-                    <!-- CLOUD -->
-
-                    <div class="skill-category">
-
-                        <div class="skill-category-header">
-
-                            <h3>
-                                ☁️ Cloud & Tools
-                            </h3>
-
-                            <span>
-                                Tools
-                            </span>
-
-                        </div>
-
-
-                        <div class="skill-tags">
-
-                            <span>Google Cloud Platform</span>
-
-                            <span>Git</span>
-
-                            <span>VS Code</span>
-
-                            <span>Postman</span>
-
-                            <span>Google Workspace</span>
-
-                            <span>Microsoft Excel</span>
-
-                            <span>Microsoft Office</span>
-
-                        </div>
-
-                    </div>
-
-
-
-                    <!-- CORE CS -->
-
-                    <div class="skill-category">
-
-                        <div class="skill-category-header">
-
-                            <h3>
-                                🧠 Computer Science
-                            </h3>
-
-                            <span>
-                                Fundamentals
-                            </span>
-
-                        </div>
-
-
-                        <div class="skill-tags">
-
-                            <span>OOP</span>
-
-                            <span>DSA</span>
-
-                            <span>Computer Networks</span>
-
-                            <span>Operating Systems</span>
-
-                        </div>
-
-                    </div>
-
-
+                <div class="project-number">
+                    03
                 </div>
 
-            </div>
-
-        </section>
-
-
-
-        <!-- =====================================
-             EDUCATION
-        ====================================== -->
-
-        <section
-            id="education"
-            class="section"
-        >
-
-            <div class="container">
-
-
-                <h2 class="section-title">
-                    Education
-                </h2>
-
-
-                <div class="education-card">
-
-
-                    <div class="education-icon">
-                        🎓
-                    </div>
-
-
-                    <div>
-
-                        <h3>
-                            Bachelor of Technology
-                            in Information Technology
-                        </h3>
-
-
-                        <h4>
-                            Narula Institute of Technology
-                        </h4>
-
-
-                        <p>
-                            Kolkata, West Bengal
-                        </p>
-
-
-                        <p>
-                            <strong>
-                                Expected Graduation:
-                            </strong>
-
-                            2027
-                        </p>
-
-
-                        <p>
-
-                            <strong>
-                                Relevant Coursework:
-                            </strong>
-
-                            Database Management Systems,
-                            Web Technologies,
-                            Object-Oriented Programming with Java,
-                            Computer Networks and Operating Systems.
-
-                        </p>
-
-                    </div>
-
-
+                <div class="project-icon">
+                    <i class="fas fa-laptop-code"></i>
                 </div>
 
-            </div>
-
-        </section>
-
-
-
-        <!-- =====================================
-             TRAINING
-        ====================================== -->
-
-        <section
-            id="training"
-            class="section section-light"
-        >
-
-            <div class="container">
-
-
-                <h2 class="section-title">
-                    Training & Virtual Internships
-                </h2>
-
-
-                <div class="training-grid">
-
-
-                    <!-- JAVA -->
-
-                    <article class="training-card">
-
-                        <div class="training-icon">
-                            ☕
-                        </div>
-
-
-                        <h3>
-                            Java Full Stack Development
-                            Virtual Intern
-                        </h3>
-
-
-                        <h4>
-                            EduSkills Foundation
-                        </h4>
-
-
-                        <p>
-
-                            Java Full Stack Development
-                            virtual internship experience.
-
-                        </p>
-
-                    </article>
-
-
-
-                    <!-- MEAN -->
-
-                    <article class="training-card">
-
-                        <div class="training-icon">
-                            🌐
-                        </div>
-
-
-                        <h3>
-                            MEAN Full Stack Development
-                            Trainee
-                        </h3>
-
-
-                        <h4>
-                            Ardent Computech Pvt. Ltd.
-                        </h4>
-
-
-                        <p>
-
-                            MEAN Full Stack Development
-                            training experience.
-
-                        </p>
-
-                    </article>
-
-
-
-                    <!-- GOOGLE CLOUD -->
-
-                    <article class="training-card">
-
-                        <div class="training-icon">
-                            ☁️
-                        </div>
-
-
-                        <h3>
-                            Google Cloud Arcade
-                        </h3>
-
-
-                        <h4>
-                            Program Participant
-                        </h4>
-
-
-                        <p>
-
-                            Participated in the Google Cloud
-                            Arcade program and hands-on cloud
-                            learning activities.
-
-                        </p>
-
-                    </article>
-
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- =====================================
-             PROJECTS
-        ====================================== -->
-
-        <section
-            id="projects"
-            class="section"
-        >
-
-            <div class="container">
-
-
-                <h2 class="section-title">
-                    Projects
-                </h2>
-
-
-                <div class="projects-grid">
-
-
-                    <!-- FAMPLus -->
-
-                    <article class="project-card">
-
-
-                        <div class="project-number">
-                            01
-                        </div>
-
-
-                        <h3>
-                            Family Health Tracker — FamPlus
-                        </h3>
-
-
-                        <p>
-
-                            A responsive web-based family health
-                            tracking platform designed to organize
-                            family health information and monitor
-                            health vitals.
-
-                        </p>
-
-
-                        <div class="project-features">
-
-                            <span>
-                                🔐 Authentication
-                            </span>
-
-                            <span>
-                                👨‍👩‍👧 Family Dashboard
-                            </span>
-
-                            <span>
-                                🩺 Symptom Checker
-                            </span>
-
-                            <span>
-                                📊 Health Vitals
-                            </span>
-
-                        </div>
-
-
-                        <div class="project-tags">
-
-                            <span>React.js</span>
-
-                            <span>Vite</span>
-
-                            <span>Tailwind CSS</span>
-
-                            <span>Chart.js</span>
-
-                            <span>REST APIs</span>
-
-                        </div>
-
-
-                        <div class="project-buttons">
-
-
-                            <a
-                                href="https://fam-plus.vercel.app"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="btn"
-                            >
-                                🌐 Live Demo
-                            </a>
-
-
-                        </div>
-
-
-                    </article>
-
-
-
-                    <!-- NEWSPULSE -->
-
-                    <article class="project-card">
-
-
-                        <div class="project-number">
-                            02
-                        </div>
-
-
-                        <h3>
-                            NewsPulse
-                        </h3>
-
-
-                        <p>
-
-                            A modern news-based web application
-                            concept with a clean and responsive
-                            interface for presenting news content.
-
-                        </p>
-
-
-                        <div class="project-features">
-
-                            <span>
-                                📰 News Interface
-                            </span>
-
-                            <span>
-                                📱 Responsive Design
-                            </span>
-
-                            <span>
-                                ⚡ Web Experience
-                            </span>
-
-                        </div>
-
-
-                        <div class="project-tags">
-
-                            <span>HTML5</span>
-
-                            <span>CSS3</span>
-
-                            <span>JavaScript</span>
-
-                        </div>
-
-
-                        <div class="project-buttons">
-
-
-                            <a
-                                href="#"
-                                class="btn"
-                            >
-                                🌐 Live Demo
-                            </a>
-
-
-                        </div>
-
-
-                    </article>
-
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- =====================================
-             KEY COMPETENCIES
-        ====================================== -->
-
-        <section
-            id="competencies"
-            class="section section-light"
-        >
-
-            <div class="container">
-
-
-                <h2 class="section-title">
-                    Key Competencies
-                </h2>
-
-
-                <div class="competencies-grid">
-
-
-                    <div class="competency-card">
-                        <span>💬</span>
-                        <h3>
-                            Technical Communication
-                        </h3>
-                    </div>
-
-
-                    <div class="competency-card">
-                        <span>🔎</span>
-                        <h3>
-                            Product & Technology Research
-                        </h3>
-                    </div>
-
-
-                    <div class="competency-card">
-                        <span>📊</span>
-                        <h3>
-                            Market & Business Research
-                        </h3>
-                    </div>
-
-
-                    <div class="competency-card">
-                        <span>📝</span>
-                        <h3>
-                            Requirement Understanding
-                        </h3>
-                    </div>
-
-
-                    <div class="competency-card">
-                        <span>🧩</span>
-                        <h3>
-                            Analytical Problem-Solving
-                        </h3>
-                    </div>
-
-
-                    <div class="competency-card">
-                        <span>📦</span>
-                        <h3>
-                            Product Understanding
-                        </h3>
-                    </div>
-
-
-                    <div class="competency-card">
-                        <span>🤝</span>
-                        <h3>
-                            Customer-Oriented Communication
-                        </h3>
-                    </div>
-
-
-                    <div class="competency-card">
-                        <span>🎤</span>
-                        <h3>
-                            Presentation & Documentation
-                        </h3>
-                    </div>
-
-
-                    <div class="competency-card">
-                        <span>👥</span>
-                        <h3>
-                            Cross-Functional Collaboration
-                        </h3>
-                    </div>
-
-
-                    <div class="competency-card">
-                        <span>🚀</span>
-                        <h3>
-                            Adaptability & Fast Learning
-                        </h3>
-                    </div>
-
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- =====================================
-             CAREER INTERESTS
-        ====================================== -->
-
-        <section
-            id="interests"
-            class="section"
-        >
-
-            <div class="container">
-
-
-                <h2 class="section-title">
-                    Career Interests
-                </h2>
-
-
-                <div class="interests-grid">
-
-
-                    <div class="interest-card">
-                        💼
-                        <span>Tech Sales</span>
-                    </div>
-
-
-                    <div class="interest-card">
-                        📈
-                        <span>Business Development</span>
-                    </div>
-
-
-                    <div class="interest-card">
-                        🚀
-                        <span>Growth</span>
-                    </div>
-
-
-                    <div class="interest-card">
-                        ☁️
-                        <span>SaaS</span>
-                    </div>
-
-
-                    <div class="interest-card">
-                        🧠
-                        <span>Technology Consulting</span>
-                    </div>
-
-
-                    <div class="interest-card">
-                        📦
-                        <span>Product Management</span>
-                    </div>
-
-
-                    <div class="interest-card">
-                        🤝
-                        <span>Customer Success</span>
-                    </div>
-
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- =====================================
-             CONTACT
-        ====================================== -->
-
-        <section
-            id="contact"
-            class="section section-light"
-        >
-
-            <div class="container">
-
-
-                <h2 class="section-title">
-                    Contact Me
-                </h2>
-
-
-                <div class="contact-grid">
-
-
-                    <!-- CONTACT INFORMATION -->
-
-                    <div class="contact-info">
-
-
-                        <div class="contact-card">
-
-                            <div class="contact-icon">
-                                📧
-                            </div>
-
-                            <div>
-
-                                <h3>
-                                    Email
-                                </h3>
-
-                                <a
-                                    href="mailto:jirulsk742184@gmail.com"
-                                >
-                                    jirulsk742184@gmail.com
-                                </a>
-
-                            </div>
-
-                        </div>
-
-
-
-                        <div class="contact-card">
-
-                            <div class="contact-icon">
-                                📱
-                            </div>
-
-                            <div>
-
-                                <h3>
-                                    Phone
-                                </h3>
-
-                                <a
-                                    href="tel:+918436588509"
-                                >
-                                    +91 8436588509
-                                </a>
-
-                            </div>
-
-                        </div>
-
-
-
-                        <div class="contact-card">
-
-                            <div class="contact-icon">
-                                🔗
-                            </div>
-
-                            <div>
-
-                                <h3>
-                                    LinkedIn
-                                </h3>
-
-                                <a
-                                    href="https://www.linkedin.com/in/jirul-sk-07a40b27b/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    LinkedIn Profile
-                                </a>
-
-                            </div>
-
-                        </div>
-
-
-
-                        <div class="contact-card">
-
-                            <div class="contact-icon">
-                                📸
-                            </div>
-
-                            <div>
-
-                                <h3>
-                                    Instagram
-                                </h3>
-
-                                <a
-                                    href="https://www.instagram.com/s.jirul.07/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    @s.jirul.07
-                                </a>
-
-                            </div>
-
-                        </div>
-
-
-
-                        <div class="contact-card">
-
-                            <div class="contact-icon">
-                                💻
-                            </div>
-
-                            <div>
-
-                                <h3>
-                                    GitHub
-                                </h3>
-
-                                <a
-                                    href="https://github.com/jirulsk2003"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    github.com/jirulsk2003
-                                </a>
-
-                            </div>
-
-                        </div>
-
-
-                    </div>
-
-
-
-                    <!-- CONTACT FORM -->
-
-                    <div class="contact-form-wrapper">
-
-
-                        <h3 class="form-title">
-                            Send Me a Message
-                        </h3>
-
-
-                        <p class="form-description">
-                            Have a project, opportunity or question?
-                            Send me a message.
-                        </p>
-
-
-                        <form
-                            id="contact-form"
-                            class="contact-form"
-                        >
-
-
-                            <input
-                                type="text"
-                                id="contact-name"
-                                name="name"
-                                placeholder="Your Name"
-                                autocomplete="name"
-                                required
-                            >
-
-
-                            <input
-                                type="email"
-                                id="contact-email"
-                                name="email"
-                                placeholder="Your Email"
-                                autocomplete="email"
-                                required
-                            >
-
-
-                            <textarea
-                                id="contact-message"
-                                name="message"
-                                rows="6"
-                                placeholder="Your Message"
-                                required
-                            ></textarea>
-
-
-                            <input
-                                type="hidden"
-                                id="contact-time"
-                                name="time"
-                            >
-
-
-                            <button
-                                type="submit"
-                                id="send-button"
-                            >
-                                📩 Send Message
-                            </button>
-
-
-                        </form>
-
-
-                    </div>
-
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-    </main>
-
-
-
-    <!-- =====================================
-         FOOTER
-    ====================================== -->
-
-    <footer class="footer">
-
-        <div class="footer-content">
-
-
-            <div>
+                <span class="project-type">
+                    Web Development Project
+                </span>
 
                 <h3>
                     CodeNova
                 </h3>
 
+                <h4>
+                    Personal Portfolio
+                </h4>
+
                 <p>
-                    IT Undergraduate | Web Developer
+                    A professional responsive portfolio website
+                    designed to showcase skills, education,
+                    training and development projects.
                 </p>
 
-            </div>
+                <ul>
+
+                    <li>
+                        Designed responsive UI using HTML5 and CSS3.
+                    </li>
+
+                    <li>
+                        Added JavaScript interactive functionality.
+                    </li>
+
+                    <li>
+                        Integrated EmailJS contact form.
+                    </li>
+
+                    <li>
+                        Added dark mode and responsive navigation.
+                    </li>
+
+                    <li>
+                        Deployed using GitHub and Vercel.
+                    </li>
+
+                </ul>
 
 
-            <div class="footer-links">
+                <div class="tech-tags">
 
-                <a href="#home">
-                    Home
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>EmailJS</span>
+                    <span>GitHub</span>
+                    <span>Vercel</span>
+
+                </div>
+
+
+                <a
+                    href="https://codenova-gold.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                >
+                    <i class="fas fa-external-link-alt"></i>
+                    Live Website
                 </a>
 
-                <a href="#about">
-                    About
-                </a>
-
-                <a href="#skills">
-                    Skills
-                </a>
-
-                <a href="#projects">
-                    Projects
-                </a>
-
-                <a href="#contact">
-                    Contact
-                </a>
-
-            </div>
-
+            </article>
 
         </div>
 
+    </div>
 
-        <div class="footer-bottom">
+</section>
+
+
+<!-- =====================================================
+     COMPETENCIES
+===================================================== -->
+
+<section class="section section-alt" id="competencies">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>06</span>
+
+            <h2>Competencies</h2>
 
             <p>
-
-                ©
-                <span id="current-year"></span>
-                CodeNova. All Rights Reserved.
-
+                Professional strengths
             </p>
 
         </div>
 
-    </footer>
+
+        <div class="competencies-grid">
+
+            <div class="competency">
+                <i class="fas fa-comments"></i>
+                <span>Technical Communication</span>
+            </div>
+
+            <div class="competency">
+                <i class="fas fa-search"></i>
+                <span>Product & Technology Research</span>
+            </div>
+
+            <div class="competency">
+                <i class="fas fa-chart-column"></i>
+                <span>Market & Business Research</span>
+            </div>
+
+            <div class="competency">
+                <i class="fas fa-list-check"></i>
+                <span>Requirement Analysis</span>
+            </div>
+
+            <div class="competency">
+                <i class="fas fa-box"></i>
+                <span>Business & Product Understanding</span>
+            </div>
+
+            <div class="competency">
+                <i class="fas fa-presentation-screen"></i>
+                <span>Presentation</span>
+            </div>
+
+            <div class="competency">
+                <i class="fas fa-file-lines"></i>
+                <span>Documentation</span>
+            </div>
+
+            <div class="competency">
+                <i class="fas fa-lightbulb"></i>
+                <span>Analytical Problem-Solving</span>
+            </div>
+
+            <div class="competency">
+                <i class="fas fa-user-check"></i>
+                <span>Customer-Oriented Communication</span>
+            </div>
+
+            <div class="competency">
+                <i class="fas fa-people-group"></i>
+                <span>Team Collaboration</span>
+            </div>
+
+            <div class="competency">
+                <i class="fas fa-arrows-rotate"></i>
+                <span>Adaptability</span>
+            </div>
+
+            <div class="competency">
+                <i class="fas fa-bolt"></i>
+                <span>Fast Learning</span>
+            </div>
+
+        </div>
 
 
+        <div class="career-box">
 
-    <!-- =====================================
-         EMAILJS
-    ====================================== -->
+            <span>
+                Career Interests
+            </span>
 
-    <script
-        type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-    </script>
+            <h3>
+                Tech Sales · Business Development · Growth ·
+                SaaS · Technology Consulting · Product Management ·
+                Customer Success
+            </h3>
 
+        </div>
 
-    <script type="text/javascript">
+    </div>
 
-        emailjs.init({
-            publicKey: "eecKDtbbWTL-Tc3PB"
-        });
-
-    </script>
+</section>
 
 
-    <script src="script.js"></script>
+<!-- =====================================================
+     CONTACT
+===================================================== -->
 
+<section class="section" id="contact">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>07</span>
+
+            <h2>Contact</h2>
+
+            <p>
+                Let's connect
+            </p>
+
+        </div>
+
+
+        <div class="contact-grid">
+
+
+            <div class="contact-info">
+
+                <h3>
+                    Have a project or opportunity?
+                </h3>
+
+                <p>
+                    Feel free to contact me for collaboration,
+                    internship opportunities or technology
+                    discussions.
+                </p>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+
+                    <div>
+
+                        <span>Email</span>
+
+                        <a href="mailto:jirulsk742184@gmail.com">
+                            jirulsk742184@gmail.com
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+
+                    <div>
+
+                        <span>Phone</span>
+
+                        <a href="tel:+918436588509">
+                            +91 8436588509
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+
+                    <div>
+
+                        <span>LinkedIn</span>
+
+                        <a
+                            href="https://www.linkedin.com/in/jirul-sk-07a40b27b/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            LinkedIn Profile
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+
+                    <div>
+
+                        <span>GitHub</span>
+
+                        <a
+                            href="https://github.com/jirulsk2003"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            github.com/jirulsk2003
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- CONTACT FORM -->
+
+            <div class="contact-form-wrapper">
+
+                <form id="contactForm">
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Your name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Your email"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            Message
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            placeholder="Your message"
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="btn primary-btn submit-btn"
+                    >
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+
+
+                    <p
+                        id="formStatus"
+                        class="form-status"
+                    ></p>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="footer">
+
+    <div class="container footer-content">
+
+        <div>
+
+            <a href="#home" class="logo">
+                &lt;CodeNova/&gt;
+            </a>
+
+            <p>
+                Built with HTML, CSS and JavaScript.
+            </p>
+
+        </div>
+
+
+        <div class="footer-socials">
+
+            <a
+                href="https://github.com/jirulsk2003"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a
+                href="https://www.linkedin.com/in/jirul-sk-07a40b27b/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <i class="fab fa-linkedin"></i>
+            </a>
+
+            <a
+                href="https://www.instagram.com/s.jirul.07/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <i class="fab fa-instagram"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © <span id="year"></span>
+            CodeNova · JIRUL SK.
+            All rights reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<!-- BACK TO TOP -->
+
+<button
+    id="backTop"
+    class="back-top"
+    aria-label="Back to top"
+>
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+
+<!-- EMAILJS -->
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<!-- JAVASCRIPT -->
+
+<script src="script.js"></script>
 
 </body>
-
 </html>
